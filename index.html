@@ -52,11 +52,18 @@
     </nav>
 
     <main class="main">
-        <h1 class="heading">Nearest Student IDs to your current location</h1>
-        <p class="cursive">As reported by your browser's geolocation service</p>
-        <p class="main-p">We can't tell you your precise Student ID from your location, as that requires information which isn't freely available. But we can show the Student IDs that are nearest to the position reported by your device. There's a very good chance that the one closest to the street you are on is your current Student ID. Even if it isn't, the nearest postcode is usually good enough for sat-nav or location purposes (eg, if you need to call a taxi and tell them where to pick you up from).</p>
-        <p class="main-p">The marker shows the position reported by your device, and the blue circle shows the accuracy level. For some devices, particularly those which do not have GPS, the radius of the circle can be quite large. All that we know is that your device is somewhere within it, and not necessarily precisely at the centre.</p>
-        
+        <div class="first-container">
+            <div>
+                <input type="text" placeholder="Search for a Student ID or a place name" class="first-container-input">
+                <button class="first-container-btn">Search</button>
+            </div>
+
+            <div>
+                <p>Or use your device's geolocation service to find postcodes near you</p>
+                <button class="first-container-btn">Locate Me!</button>
+            </div>
+                
+        </div>
         
         <div class="main-container">
             <p class="main-container-p"><b>Use Check My Postcode to find out all the key information for your local postcode.</b></p>
@@ -70,7 +77,7 @@
                 <div class="sub-container-div">
 
                     <div class="sub-div-head">
-                        <p>Discover related topics</p>
+                        <p style>Discover related topics</p>
                     </div>
                     
                     <div>
